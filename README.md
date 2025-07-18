@@ -2,17 +2,19 @@
 
 Welcome to my technical portfolio. This document outlines the projects I've worked on, what they do, and the skills/tools I used. These projects span areas including AI automation, machine learning, cloud infrastructure, security engineering, and creative content pipelines.
 
-## 📊 Splunk vs Other SIEM Platforms (Comparative Analysis)
+## 🔍 askSplunk – Natural Language to SPL Magic
 
-**Description:** Deep-dive analysis comparing Splunk to Sentinel and Chronicle in a large-scale enterprise context (2TB/day ingest, 70k+ searches).
+**Description:** A multi-agent system that translates plain English queries into optimized Splunk SPL searches, providing reasoning and auto-healing capabilities across specialized agents.
 
 - **Key Features:**
-  - Use-case matrix for SOC, SOAR, and IR workflows
-  - Scalability & TCO analysis
-  - Technical deep dive + exec summary tables
-- **Tech Stack:** Markdown, Jupyter, Splunk, Sentinel, Chronicle  
-- **Status:** Static document, available upon request  
-- **Repo:** [Available by request]
+  - Conversational interface for Splunk with plain-English to SPL conversion
+  - Six specialized agents: API Gateway, Discovery, Embedding, Frontend, System Watcher, AURA Exporter
+  - Semantic search powered by Qdrant and Ollama local LLM
+  - Agentic System Watcher for auto-healing
+
+- **Tech Stack:** Python, FastAPI, Next.js/React, Redis, Qdrant, Docker, Ollama
+- **Status:** Active development (Phase 2)
+- **Repo:** github.com/jenastar/askSplunk
 
 ---
 
@@ -26,7 +28,7 @@ Welcome to my technical portfolio. This document outlines the projects I've work
   - Goal: Detect and simulate phishing attacks for resilience training
 - **Tech Stack:** AWS Comprehend, Python, Terraform, NLP  
 - **Status:** In development (early walk stage)  
-- **Repo:** [Coming soon – architecture + sample code]
+- **Repo:** https://github.com/jenastar/comprehend_phishing_public/blob/main/README.md
 
 ---
 
